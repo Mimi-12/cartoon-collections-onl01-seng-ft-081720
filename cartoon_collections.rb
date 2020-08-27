@@ -21,7 +21,7 @@ def summon_captain_planet(planeteer_calls)
 
 
 
-def find_the_cheese(food)
+def find_the_cheese(string)
   i =
    "#{i}.  #{|food|}
 
