@@ -31,6 +31,7 @@ def find_the_cheese(string)
   if string contain = 0
     nil
   else
+    "string"
   end
   string.include?
 end
