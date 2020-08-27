@@ -3,7 +3,7 @@ def roll_call_dwarves(dwarf_names_array)# code an argument here
   i = 1
   dwarf_names_array.each do |dwarf|
     puts  "#{i}. #{dwarf}"
-    i +=1
+    i += 1
   end
 end
    # Your code here
@@ -22,14 +22,15 @@ def summon_captain_planet(planeteer_calls)
    else
      true
  end
-[calls].any? {|calls| calls.length > 4}
+calls.any? {|calls| calls.length > 4}
  end
 
 
 
 def find_the_cheese(string)
-  i =
-   "#{i}.  #{|food|}
-
+  i = 1
+  string.each do |string|
+    puts  "#{i}. #{string}"
     i += 1
   end
+end
