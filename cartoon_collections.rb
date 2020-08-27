@@ -28,7 +28,6 @@ calls.any? {|calls| calls.length > 4}
 
 
 def find_the_cheese(array)
-  binding.pry
 array.each do |string|
     binding.pry
   puts  "#{i}. #{string}"
