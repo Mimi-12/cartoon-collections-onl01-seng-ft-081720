@@ -35,3 +35,10 @@ def find_the_cheese(string)
   end
   string.include?
 end
+
+i = 1
+dwarf_names_array.each do |dwarf|
+  puts  "#{i}. #{dwarf}"
+  i += 1
+end
+end
