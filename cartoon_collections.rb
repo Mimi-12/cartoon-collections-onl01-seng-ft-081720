@@ -35,8 +35,9 @@ array
 
 
 def find_the_cheese(food)
-   "#{i}.  #{food}
-    puts  "#{i}. #{food}"
+  i = 
+   "#{i}.  #{|food|}
+
     i += 1
   end
 end
