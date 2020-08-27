@@ -12,7 +12,6 @@ end
 def summon_captain_planet(planeteer_calls)
     summon_captain_planet.collect{ |planeteer_calls|
     planeteer_calls.capitalize} +  "!"
-
  end
 
 
@@ -35,7 +34,7 @@ array
 
 
 def find_the_cheese(food)
-  i = 
+  i =
    "#{i}.  #{|food|}
 
     i += 1
