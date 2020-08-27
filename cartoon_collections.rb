@@ -22,6 +22,7 @@ def summon_captain_planet(planeteer_calls)
    else
      true
    end
+array
  end
  #   i = 4
  # while i >  planeteer_calls.length
