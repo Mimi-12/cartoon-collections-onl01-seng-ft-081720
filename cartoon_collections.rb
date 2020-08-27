@@ -40,4 +40,3 @@ def find_the_cheese(food)
 
     i += 1
   end
-
