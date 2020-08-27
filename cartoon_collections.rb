@@ -28,11 +28,12 @@ calls.any? {|calls| calls.length > 4}
 
 
 def find_the_cheese(array)
+  
 cheese_type =  [ "cheddar","gouda","camembert"]
-array.each do |string|
-    binding.pry
-  puts  "#{i}. #{string}"
-  i += 1
-end
 
+array.each do |string|
+  if cheese_type.include?(string)
+    return string
+end
+end
 end
