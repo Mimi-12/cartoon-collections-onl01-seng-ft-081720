@@ -28,9 +28,9 @@ calls.any? {|calls| calls.length > 4}
 
 
 def find_the_cheese(string)
-  i = 1
-  string.each do |string|
-    puts  "#{i}. #{string}"
-    i += 1
+  if string contain = 0
+    nil
+  else
   end
+  string.include?
 end
