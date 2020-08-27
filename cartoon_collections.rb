@@ -35,7 +35,6 @@ array
 
 
 def find_the_cheese(food)
-  i = 1
   food.each do |food|
     puts  "#{i}. #{food}"
     i += 1
