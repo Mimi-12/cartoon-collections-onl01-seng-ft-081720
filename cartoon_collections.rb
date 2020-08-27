@@ -36,4 +36,5 @@ array.each do |string|
     return string
 end
 end
+return nil
 end
