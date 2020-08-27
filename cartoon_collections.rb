@@ -1,4 +1,4 @@
-
+ require 'pry'
 def roll_call_dwarves(dwarf_names_array)# code an argument here
   i = 1
   dwarf_names_array.each do |dwarf|
@@ -28,6 +28,7 @@ calls.any? {|calls| calls.length > 4}
 
 
 def find_the_cheese(string)
+  binding.pry
 string.each do |string|
   puts  "#{i}. #{string}"
   i += 1
